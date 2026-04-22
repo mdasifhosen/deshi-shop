@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deshi-Deals</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+    <!-- daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- nav section -->
+    <header class="shadow py-3">
+      <div class="logo flex justify-center items-center gap-2">
+        <img class="w-12" src="./assets/logo.png" alt="" />
+        <div class="">
+          <h2 class="text-pink-500 text-4xl">
+            Deshi <span class="font-bold">Deals</span>
+          </h2>
+          <p class="text-[#797075] text-[20px]">Cheap Price , Best Quality</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner section -->
+    <div
+      class="lg:h-[750px] md:h-[700px] h-[650px] bg-gradient-to-t from-[#F6DDEA]"
+    >
+      <div class="lg:mt-[140px] md:mt-[100px] mt-9">
+        <h1
+          class="font-bold lg:text-6xl text-4xl leading-11 text-center md:mt-[-50px]"
+        >
+          Purchase TK 200 or above & get <br /><span class="text-pink-500"
+            >20% off</span
+          >
+        </h1>
+
+        <div
+          class="flex flex-col lg:flex lg:flex-row md:flex md:flex-row mt-8 justify-center items-center md:mt-10"
+        >
+          <p class="font-medium text-2xl">Use Promo Code</p>
+          <button
+            class="w-[271px] h-[69px] rounded-lg bg-[#E527B2] font-semibold text-2xl text-white ml-7 mt-5"
+          >
+            SELL200
+          </button>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img class="mx-auto" src="./assets/hero-bg.png" alt="" />
+      </div>
+    </div>
+
+    <main class="bg-gray-100">
+      <section
+        id="products-container"
+        class="w-11/12 mx-auto lg:py-40 py-10 md:py-30 grid lg:grid-cols-12 gap-8"
+      >
+        <section id="product-box" class="col-span-9">
+          <h1 class="font-semibold text-2xl mb-5">Kitchenware</h1>
+          <div class="kitchen-items grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6">
+
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-1.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 id="card-title-1" class="card-title">K. Accessories</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span id="card-price-1">39.00</span> TK</p>
+                
+              </div>
+              <div class="m-5">
+                  <button id="cart-btn-1" class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-2.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">K. Accessories</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>39.00 </span>TK</p>
+    
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-3.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Home Cooker</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>49.00  </span>TK</p>
+                
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            
+          </div>
+
+          <h1 class="font-semibold text-2xl mt-15 mb-8">Kitchenware</h1>
+          <div class="kitchen-items grid md:grid-cols-2 lg:grid-cols-3 lg:gap-6 md:gap-6">
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-1.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">K. Accessories</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>39.00 </span>TK</p>
+              
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-2.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">K. Accessories</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>39.00 </span>TK</p>
+                
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-3.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Home Cooker</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>49.00  </span>TK</p>
+                
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            
+          </div>
+
+          <h1 class="font-semibold text-2xl mt-15 mb-8">Kitchenware</h1>
+
+          <div class="kitchen-items grid  md:grid-cols-2 lg:grid-cols-3 lg:gap-6 md:gap-6">
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-1.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">K. Accessories</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>39.00 </span>TK</p>
+                
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-2.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">K. Accessories</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>39.00 </span>TK</p>
+                
+              </div><div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card bg-base-100  shadow-sm">
+              <figure class="m-5 bg-gray-200 rounded-xl">
+                <img
+                  src="./assets/kitchen-3.png"
+                  alt="Shoes"
+                  class="rounded-xl py-5"
+                />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Home Cooker</h2>
+                <p>
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <p class="text-gray-500"><span>49.00  </span>TK</p>
+                
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            
+          </div>
+        </section>
+<!-- aside -->
+       
+          <aside id="cart-box"class="col-span-3 md:mt-10 mt-10">
+          <div class="bg-white p-5">
+            <h2 class="font-bold mb-5">Have coupon?</h2>
+            <div class="join">
+  <input class="input join-item" placeholder="Email" />
+  <button class="btn join-item rounded-r-xl bg-pink-500 text-white">Subscribe</button>
+</div>
+
+          </div>
+          <!-- cart box -->
+
+          <div class="cart-box bg-white mt-10 p-5">
+            <h2 class="font-bold">Cart</h2>
+            <div class="space-y-5 w-full" id="cart-container">
+              <div>
+                
+              </div>
+            </div>
+            <div class="border-t border-b border-gray-400 p-3">
+              <h1>Total Price: <span id="total-price">0</span> Tk</h1>
+              <h1>Total Quantity: <span id="total-quantity" >0</span> Items</h1>
+              
+              
+            </div>
+            <button class="btn bg-pink-500 text-white btn-block mt-6">Make Purchase</button>
+          </div>
+          
+        </aside>
+      
+      </section>
+    </main>
+
+    <script src="./script/index.js"></script>
+  </body>
+</html>
