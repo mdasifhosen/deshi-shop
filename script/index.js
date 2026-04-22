@@ -34,11 +34,9 @@ for (const cartButton of cartBtns) {
 
 
 
-
+        // quantity 
         const Quantity = getElement("total-quantity").parentNode.parentNode.children[1].innerText;
         
-
-
         let totalQuantity = getElement("total-quantity").innerText
 
         totalQuantity++;
